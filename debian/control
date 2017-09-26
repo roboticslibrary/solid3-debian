@@ -1,0 +1,26 @@
+Source: solid3d
+Priority: extra
+Maintainer: Gino van den Bergen <info@dtecta.com>
+Build-Depends: debhelper (>= 7.0.50~), cmake (>= 2.8.11)
+Standards-Version: 3.9.1
+Section: libs
+Homepage: http://www.dtecta.com/
+
+Package: libsolid3d
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Software Library for Interference Detection
+
+Package: libsolid3d-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: libsolid3d (= ${binary:Version}), ${misc:Depends}
+Description: Software Library for Interference Detection
+
+Package: libsolid3d-dev
+Section: libdevel
+Architecture: any
+Depends: libsolid3d (= ${binary:Version})
+Description: Software Library for Interference Detection

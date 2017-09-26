@@ -1,0 +1,6 @@
+solid3d (3.5.8) UNRELEASED; urgency=low
+
+  * Added CMake configuration
+  * Fixed compilation and warnings fro gcc 4.8.3 (Thanks Sven Köhler)
+
+ -- Gino van den Bergen <info@dtecta.com>  Fri, 24 Apr 2015 12:00:00 +0100
